@@ -9,6 +9,13 @@ title: 线性回归、神经网络、机器学习
 
 相信在中学时期大部分人都见过以下类似的“应用题”：
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+*在研究硝酸钠的可溶性程度时，对不同的温度观测它在水中的溶解度，得观测结果如下，*
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+|温度(x)|0|10|20|50|70|
+|:-----||溶解度(y)|66.7|76|85|112.3|128|
+
+*求变量x与y的线性回归方程。*
+
+如何求解？首先，我们需要画一个散点图：
+
+![_config.yml]({{ site.baseurl }}/images/01lr/1.png)
